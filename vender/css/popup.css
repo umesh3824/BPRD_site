@@ -5,9 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .popup {
-    background-color: #ffffff;
-    width: 450px;
+    background-color: #dceceb;
+    width: 90%;
+    height: 80%;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -17,7 +19,9 @@
     font-family: "Poppins", sans-serif;
     display: none;
     text-align: center;
-    z-index : 100;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    min-width: 267px;
 }
 
 .popup button {
