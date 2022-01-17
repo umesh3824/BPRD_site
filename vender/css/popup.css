@@ -38,7 +38,7 @@
     line-height: 25px;
 }
 
-a {
+.popup a {
     display: block;
     width: 150px;
     position: relative;
