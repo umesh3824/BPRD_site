@@ -17,6 +17,7 @@
     font-family: "Poppins", sans-serif;
     display: none;
     text-align: center;
+    z-index : 100;
 }
 
 .popup button {
