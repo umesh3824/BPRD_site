@@ -170,12 +170,12 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 24px;
-  font-size: 15px;
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
   font-weight: 500;
   color: white;
   white-space: nowrap;
-  transition: 0.3s;
+   transition: all .125s ease-in-out;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -475,24 +475,29 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .section-title h2 {
-  margin: 15px 0 0 0;
-  font-size: 32px;
-  font-weight: 700;
+  margin: 0 0 0 0;
+  font-size: 40px;
+  font-weight: 580;
+}
+.section-title h3 {
+  margin: 0 0 0 0;
+  font-size: 33px;
+  font-weight: 470;
   color: #5f5950;
 }
 .section-title h2 span {
   color: #ffb03b;
 }
 .section-title p {
-  margin: 15px auto 0 auto;
-  font-weight: 300;
+  margin: 10px auto 0 auto;
+  font-weight: 340;
 }
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -1030,7 +1035,8 @@ section {
 .gallery .gallery-item {
   overflow: hidden;
   border-right: 3px solid #fff;
-  border-bottom: 3px solid #fff;
+  border-bottom: 8px solid #fff;
+border-top: 5px solid #fff;
 }
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
