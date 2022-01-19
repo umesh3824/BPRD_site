@@ -1,9 +1,13 @@
-.pccoe-sm-bar{
-margin-top: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Source+Sans+Pro:wght@600&display=swap');
+.pccoe-sm-bar {
+    margin-top: 200px;
 }
-.extern-btn{
+
+.extern-btn {
     visibility: hidden;
 }
+
+
 /* .extern-btn{
     padding: 5px 0px 10px 0px;
 }
@@ -20,51 +24,62 @@ margin-top: 200px;
     background-color: rgb(9, 149, 184);
     color: rgb(247, 247, 247);
 } */
-.text-right{
+
+.text-right {
     text-align: right;
 }
+
 .head-text {
     display: inline;
 }
-.head-text h2{
+
+.head-text h2 {
     font-size: 200%;
 }
-.header img{
+
+.header img {
     width: 100%;
     height: 200px;
     padding-top: 2px;
-    font-family: Raleway,sans-serif;
+    font-family: Raleway, sans-serif;
 }
-.header .dept-name{
+
+.header .dept-name {
     color: #1c4b85 !important;
-   font-weight: 700;
+    font-weight: 700;
 }
-.header .description{
+
+.header .description {
     color: #0f70e7;
     letter-spacing: 1px;
     font-size: 12px;
 }
-.text-justify{
+
+.text-justify {
     text-align: justify;
 }
-.header .pcet-name{
+
+.header .pcet-name {
     color: #0049a3 !important;
     letter-spacing: 1px;
     font-size: 14px;
-    font-weight: 700;   
+    font-weight: 700;
 }
+
 .header .clg-name {
     color: #0049a3 !important;
     font-weight: 800;
 }
-.label-undergraduate span{
-    padding:5px 10px;
+
+.label-undergraduate span {
+    padding: 5px 10px;
     border-radius: 10px;
     background-color: #f8f9fa;
     font-size: 14px;
     font-weight: 500;
     color: #727272;
 }
+
 .marquee-section {
     padding: 0px !important;
     position: relative;
@@ -104,68 +119,84 @@ margin-top: 200px;
     border-radius: 20px;
     padding: 1px 20px;
 }
+
+
 /* footer section */
 
-.footer{
+.footer {
     margin-top: 150px !important;
     background-color: #266abd;
     position: relative;
     width: 100%;
     bottom: 0px;
-    border-bottom:solid 2px #ffab1f;
-    border-top:solid 2px #ffab1f;
+    border-bottom: solid 2px #ffab1f;
+    border-top: solid 2px #ffab1f;
 }
-.footer a{
+
+.footer a {
     text-decoration: none !important;
     color: #fff;
 }
-.footer .card-section{
+
+.footer .card-section {
     padding-top: 15px;
     color: rgb(245, 245, 245);
     border-bottom: solid 2px #fff;
 }
-.footer .card-section .item{
-    padding:0px 40px;
+
+.footer .card-section .item {
+    padding: 0px 40px;
     margin-bottom: 20px;
 }
-.footer .card-section h5{
+
+.footer .card-section h5 {
     text-align: center;
     padding: 10px;
     border-bottom: dashed 1px #fff;
 }
-.footer .card-section .importent-link a{
+
+.footer .card-section .importent-link a {
     display: block;
     padding-left: 10px;
 }
-.footer .card-section .quick-link a{
+
+.footer .card-section .quick-link a {
     display: block;
     padding-left: 10px;
 }
-.footer .footer-bottom{
+
+.footer .footer-bottom {
     color: #fff;
     text-align: center;
 }
 
+
 /* End footer */
 
+
 /* Qick links*/
-.section{
+
+.section {
     border-radius: 5px;
 }
-.section .section-head{
+
+.section .section-head {
     /* background-color: #266abd; */
     color: #266abd;
     font-weight: 700;
     padding: 10px 0px;
     border-bottom: solid 1px #266abd;
 }
-.section .section-list{
+
+.section .section-list {
     list-style: none;
     padding: 0px 5px;
 }
-.section .section-list a{
+
+.section .section-list a {
     text-decoration: none;
 }
+
 .section .section-list li {
     padding-left: 1.3em;
     font-weight: 600;
@@ -174,30 +205,35 @@ margin-top: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.section .section-list li:hover{
-    background-color: #0073ff11;
-}
 
+.section .section-list li:hover {
+    background-color: #11396962;
+}
 
 
 /* important Links*/
-.implinks-section{
+
+.implinks-section {
     border-radius: 5px;
 }
-.implinks-section .section-head{
+
+.implinks-section .section-head {
     /* background-color: #266abd; */
     color: #266abd;
     font-weight: 700;
     padding: 10px 0px;
     border-bottom: solid 1px #266abd;
 }
-.implinks-section .section-list{
+
+.implinks-section .section-list {
     list-style: none;
     padding: 0px 5px;
 }
-.implinks-section .section-list a{
+
+.implinks-section .section-list a {
     text-decoration: none;
 }
+
 .implinks-section .section-list li {
     padding-left: 1.3em;
     color: black;
@@ -207,25 +243,32 @@ margin-top: 200px;
     font-weight: 400;
     font-size: 13px;
 }
-.implinks-section .section-list li:hover{
+
+.implinks-section .section-list li:hover {
     background-color: #0073ff11;
 }
 
+
 /* END Quik Links*/
 
-.color-blue{
+.color-blue {
     color: #266abd;
 }
-.bg-blue{
-    background-color:  #266abd;
+
+.bg-blue {
+    background-color: #266abd;
     color: #fff;
 }
+
+
 /* news */
+
 .content-section .section-list {
     color: white;
     list-style: none;
     padding: 10px;
 }
+
 .content-section .section-list a {
     text-decoration: none;
 }
@@ -240,21 +283,24 @@ margin-top: 200px;
     font-size: 15px;
     padding-bottom: 10px;
 }
-.content-section .read-more a{
+
+.content-section .read-more a {
     text-decoration: none;
     color: #266abd;
     background-color: #266abd23;
     font-size: 12px;
     border-radius: 5px 0 0 0;
     font-weight: 700;
-    padding:3px
+    padding: 3px
 }
-.content-section .read-more a:hover{
+
+.content-section .read-more a:hover {
     background-color: white;
     color: #266abd;
 }
-.content-section .read-more{
-    padding:0px;
+
+.content-section .read-more {
+    padding: 0px;
     margin: 0px;
     text-align: right;
 }
@@ -263,62 +309,74 @@ margin-top: 200px;
     background-color: #0073ff11;
 }
 
-.about-section .title{
+.about-section .title {
     font-size: 20px;
     font-weight: 700;
+    border-radius: 10px;
 }
-.about-section .title{
+
+.about-section .title {
     padding: 5px 0px;
     color: #266abd;
     border-bottom: solid 1px #266abd;
 }
-.about-section .text-data{
+
+.about-section .text-data {
     text-align: justify !important;
 }
 
-.news-section .tab-section{
+.news-section .tab-section {
     border-radius: 5px;
     /* border: solid 1px #49688e; */
 }
-.news-section .tab-section .nav-link{
-   color: #266abd !important;
-   border: solid 1px #0073ff33;
+
+.news-section .tab-section .nav-link {
+    color: #266abd !important;
+    border: solid 1px #0073ff33;
 }
- .news-section .nav-tabs .nav-link.active,
- .nav-tabs .nav-item.show .nav-link {
-   color: #fff !important;
-   background-color: #266abd;
- }
- .news-section .content-section{
+
+.news-section .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #fff !important;
+    background-color: #266abd;
+}
+
+.news-section .content-section {
     /* border: solid 1px #266abd; */
     border-top: none !important;
- }
- /* .news-section .content-section .section-list ul{
+}
+
+
+/* .news-section .content-section .section-list ul{
     color: black !important;
     background-color: red;
  } */
 
+.branch-section {
+    margin-top: 15px;
+}
 
-.branch-section{
-   margin-top: 15px;
- }
-.branch-section .head{
+.branch-section .head {
     border-bottom: solid 1px #266abd;
     padding-bottom: 5px;
 }
-.branch-section .post{
+
+.branch-section .post {
     font-size: 14px;
     /* border-bottom: solid 2px #266abd; */
 }
-.branch-section .branch{
+
+.branch-section .branch {
     font-size: 14px;
     padding: 5px;
 }
-.branch-section img{
+
+.branch-section img {
     height: 50px;
     width: 50px;
 }
-.branch-section .item{
+
+.branch-section .item {
     padding: 20px 10px;
     margin-left: 5%;
     margin-right: 5%;
@@ -328,7 +386,8 @@ margin-top: 200px;
     width: 90%;
     /* border-bottom: solid 2px #ffab1f; */
 }
-.branch-section .item:hover .branch{
+
+.branch-section .item:hover .branch {
     border-bottom: solid 2px #266abd;
 }
 
@@ -338,95 +397,105 @@ margin-top: 200px;
 }
 
 
-
 /* HOD Desk*/
-.hod-desk .title{
+
+.hod-desk .title {
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 1px #266abd;
 }
-.hod-desk .text-data{
+
+.hod-desk .text-data {
     text-align: justify;
     padding: 3px;
 }
-.hod-desk .label-area span{
-    font-weight:500;
+
+.hod-desk .label-area span {
+    font-weight: 500;
     font-size: 14px;
     color: black;
 }
 
-.vision-mision .title{
-    padding:10px 10px 0px 0px;
+.vision-mision .title {
+    padding: 10px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.vision-mision .text-data{
+
+.vision-mision .text-data {
     text-align: justify;
 }
 
-.vision-mision .content-panel{
+.vision-mision .content-panel {
     padding-top: 20px;
 }
-.vision-mision .content-panel ul li{
+
+.vision-mision .content-panel ul li {
     text-align: justify;
 }
 
-
-.result .title{
-    padding:10px 10px 0px 10px;
+.result .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.result .text-data{
+
+.result .text-data {
     text-align: justify;
     padding: 3px;
 }
 
-.result .content-panel{
+.result .content-panel {
     padding-top: 20px;
 }
-.result .content-panel .head{
+
+.result .content-panel .head {
     color: #266abd;
     font-weight: 500;
-    padding:5px 30px 5px 0px;
+    padding: 5px 30px 5px 0px;
     border-bottom: solid 1px #266abd;
     /* border-radius: 100px; */
 }
-.result .academic-result table th{
+
+.result .academic-result table th {
     background-color: #7ca2d12c;
 }
 
-.bos-section .title{
-    padding:40px 10px 0px 10px;
+.bos-section .title {
+    padding: 40px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.bos-section .text-data{
+
+.bos-section .text-data {
     text-align: justify;
     padding-top: 10px;
     font-size: 15px;
 }
-.bos-section .section-2 h5{
+
+.bos-section .section-2 h5 {
     border-bottom: solid 2px #266abd;
     padding: 5px 0px;
     color: #266abd;
 }
-.bos-section .section-2 a{
+
+.bos-section .section-2 a {
     font-size: 14px;
 }
-.download .title{
-    padding:10px 10px 0px 10px;
+
+.download .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
@@ -434,23 +503,25 @@ margin-top: 200px;
     border-bottom: solid 2px #266abd;
 }
 
-
-.download ul{
-   color: #266abd;
+.download ul {
+    color: #266abd;
 }
-.download ul li{
+
+.download ul li {
     margin: 10px;
 }
-.download a{
+
+.download a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.download ul li:hover{
+
+.download ul li:hover {
     color: #042957;
 }
 
-.syllabus .title{
-    padding:10px 10px 0px 0px;
+.syllabus .title {
+    padding: 10px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
@@ -458,91 +529,103 @@ margin-top: 200px;
     border-bottom: solid 2px #266abd;
 }
 
-
-.syllabus ul{
-   color: #266abd;
+.syllabus ul {
+    color: #266abd;
 }
-.syllabus ul li{
+
+.syllabus ul li {
     margin: 10px;
 }
-.syllabus a{
+
+.syllabus a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.syllabus ul li:hover{
+
+.syllabus ul li:hover {
     color: #042957;
 }
 
-.time-table .title{
-    padding:10px 10px 0px 0px;
+.time-table .title {
+    padding: 10px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.time-table ul{
-   color: #266abd;
+
+.time-table ul {
+    color: #266abd;
 }
-.time-table ul li{
+
+.time-table ul li {
     margin: 10px;
 }
-.time-table a{
+
+.time-table a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.time-table ul li:hover{
+
+.time-table ul li:hover {
     color: #042957;
 }
 
-
-.examination .title{
-    padding:10px 10px 0px 0px;
+.examination .title {
+    padding: 10px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.examination ul{
-   color: #266abd;
+
+.examination ul {
+    color: #266abd;
 }
-.examination ul li{
+
+.examination ul li {
     margin: 10px;
 }
-.examination a{
+
+.examination a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.examination ul li:hover{
+
+.examination ul li:hover {
     color: #042957;
 }
 
-
-
-.department-boucher .title{
-    padding:10px 10px 0px 0px;
+.department-boucher .title {
+    padding: 10px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.department-boucher ul{
-   color: #266abd;
+
+.department-boucher ul {
+    color: #266abd;
 }
-.department-boucher ul li{
+
+.department-boucher ul li {
     margin: 10px;
 }
-.department-boucher a{
+
+.department-boucher a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.department-boucher ul li:hover{
+
+.department-boucher ul li:hover {
     color: #042957;
 }
-.news-page-section .title{
-    padding:10px 10px 0px 10px;
+
+.news-page-section .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
@@ -550,51 +633,58 @@ margin-top: 200px;
     border-bottom: solid 2px #266abd;
 }
 
-.news-page-section ul{
-   color: #266abd;
+.news-page-section ul {
+    color: #266abd;
 }
-.news-page-section ul li{
+
+.news-page-section ul li {
     margin: 10px;
 }
-.news-page-section a{
+
+.news-page-section a {
     text-decoration: none;
-    padding: 10px;  
+    padding: 10px;
 }
-.news-page-section ul li:hover{
+
+.news-page-section ul li:hover {
     color: #042853;
 }
 
-.student-alumni{
+.student-alumni {
     background-color: rgba(245, 244, 244, 0.644);
     margin-top: 30px;
     border-radius: 10px;
     padding-bottom: 100px !important;
 }
-.student-alumni .title{
-    padding:10px 10px 0px 10px;
+
+.student-alumni .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.student-alumni .content-panel{
-    padding-top: 20px;   
+
+.student-alumni .content-panel {
+    padding-top: 20px;
 }
-.student-alumni .content-panel .item{
+
+.student-alumni .content-panel .item {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     background-color: #fff;
 }
 
-.student-alumni .content-panel .item img{
+.student-alumni .content-panel .item img {
     border-radius: 10px;
     margin: 5px;
     width: 200px;
     height: 200px;
 }
-.student-alumni .content-panel .item .description{
+
+.student-alumni .content-panel .item .description {
     color: rgb(144, 144, 144);
     font-size: 13px;
     font-weight: 500;
@@ -602,7 +692,8 @@ margin-top: 200px;
     padding: 0px;
     margin: 0px;
 }
-.student-alumni .content-panel .item .batch{
+
+.student-alumni .content-panel .item .batch {
     padding: 0px;
     margin: 0px;
     text-align: right;
@@ -611,38 +702,39 @@ margin-top: 200px;
     color: rgb(144, 144, 144);
 }
 
-
-
-
-.class-teacher{
+.class-teacher {
     border-radius: 10px;
     padding-bottom: 50px !important;
 }
-.class-teacher .title{
-    padding:10px 10px 0px 10px;
+
+.class-teacher .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.class-teacher .content-panel{
-    padding-top: 20px;   
+
+.class-teacher .content-panel {
+    padding-top: 20px;
 }
-.class-teacher .content-panel .item{
+
+.class-teacher .content-panel .item {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     background-color: rgba(245, 244, 244, 0.644);
 }
 
-.class-teacher .content-panel .item img{
+.class-teacher .content-panel .item img {
     border-radius: 10px;
     margin: 5px;
     width: 200px;
     height: 200px;
 }
-.class-teacher .content-panel .item .description{
+
+.class-teacher .content-panel .item .description {
     color: rgb(144, 144, 144);
     font-size: 13px;
     font-weight: 500;
@@ -650,7 +742,8 @@ margin-top: 200px;
     padding: 0px;
     margin: 0px;
 }
-.class-teacher .content-panel .item .batch{
+
+.class-teacher .content-panel .item .batch {
     padding: 0px;
     margin: 0px;
     text-align: right;
@@ -659,44 +752,50 @@ margin-top: 200px;
     color: rgb(144, 144, 144);
 }
 
-.university-rank{
+.university-rank {
     background-color: rgba(245, 244, 244, 0.644);
     margin-top: 30px;
     border-radius: 5px;
     padding-bottom: 100px !important;
 }
-.university-rank .title{
-    padding:10px 10px 0px 10px;
+
+.university-rank .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.university-rank .content-panel{
-    padding-top: 20px;   
+
+.university-rank .content-panel {
+    padding-top: 20px;
 }
-.university-rank .content-panel .head1{
-    color:#266abd;
+
+.university-rank .content-panel .head1 {
+    color: #266abd;
 }
-.university-rank .content-panel .head1 span{
+
+.university-rank .content-panel .head1 span {
     padding-bottom: 5px;
     border-bottom: solid 1px #266abd;
 }
-.university-rank .content-panel .item{
+
+.university-rank .content-panel .item {
     margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
     background-color: #fff;
 }
 
-.university-rank .content-panel .item img{
+.university-rank .content-panel .item img {
     border-radius: 5px;
     height: 200px;
     width: 200px;
     margin: 5px;
 }
-.university-rank .content-panel .item .description{
+
+.university-rank .content-panel .item .description {
     color: rgb(144, 144, 144);
     font-size: 13px;
     font-weight: 500;
@@ -704,7 +803,8 @@ margin-top: 200px;
     padding: 0px;
     margin: 0px;
 }
-.university-rank .content-panel .item .batch{
+
+.university-rank .content-panel .item .batch {
     padding: 0px;
     margin: 0px;
     text-align: right;
@@ -713,114 +813,159 @@ margin-top: 200px;
     color: rgb(144, 144, 144);
 }
 
-.admission{
+.admission {
     /* background-color: rgba(245, 244, 244, 0.644); */
     margin-top: 30px;
     border-radius: 10px;
     padding-bottom: 100px !important;
 }
-.admission .title{
-    padding:10px 10px 0px 10px;
+
+.admission .title {
+    padding: 10px 10px 0px 10px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
-.admission .about{
-    padding-top: 20px;   
+
+.admission .about {
+    padding-top: 20px;
 }
-.admission .about .text-h{
+
+.admission .about .text-h {
     margin-left: 10px;
 }
-.eligibility-criteria .head{
+
+.eligibility-criteria .head {
     color: #266abd;
     padding-bottom: 5px;
     border-bottom: solid 0.5px;
 }
-.eligibility-criteria li{
+
+.eligibility-criteria li {
     text-align: justify;
     font-size: 14px;
     line-height: 25px;
     margin: 5px 0px;
 }
-.eligibility-criteria .outer-list{
+
+.eligibility-criteria .outer-list {
     font-weight: 700;
 }
-.eligibility-criteria ol ol{
+
+.eligibility-criteria ol ol {
     list-style-type: lower-alpha;
     font-weight: normal;
     font-weight: 500;
 }
-.achivement-item{
+
+.achivement-item {
     width: 300px;
 }
-.font-title{
+
+.font-title {
     font-size: 12px;
 }
-.text-data{
+
+.text-data {
     text-align: center;
 }
 
-
-
-.my-table td{
-text-align: justify;
-font-size: 16px;
+.my-table td {
+    text-align: justify;
+    font-size: 16px;
 }
-.my-list li{
-font-size: 16px;
-padding: 2px;
-text-align: justify;
+
+.my-list li {
+    font-size: 16px;
+    padding: 2px;
+    text-align: justify;
 }
-.label-img img{
+
+.label-img img {
     height: 40px;
     width: 80%;
     margin: 3px;
 }
-.label-img div{
+
+.label-img div {
     text-align: center;
 }
-.msg{
+
+.msg {
     font-size: 13px;
     font-weight: 500;
 }
-.msg-readmore{
+
+.msg-readmore {
     text-decoration: none;
 }
-.msg-link{
+
+.msg-link {
     font-size: 13px;
     font-weight: 500;
     background-color: #0049a317;
     padding: 5px;
     border-radius: 100px;
 }
-.bg-copy{
+
+.bg-copy {
     background-color: #255896;
     color: white;
 }
-.copy-date{
+
+.copy-date {
     font-size: 13px;
-    font-weight:500;
+    font-weight: 500;
 }
-.copy-name{
+
+.copy-name {
     text-align: right;
     font-size: 13px;
-    font-weight:500;
+    font-weight: 500;
 }
-.footer-links{
+
+.footer-links {
     text-align: center;
 }
-.footer-links li{
+
+.footer-links li {
     text-align: center;
     display: inline;
     border-left: solid 2px white;
     padding: 0px 10px;
     margin: 2px;
 }
-.footer-links li a{
+
+.footer-links li a {
     text-decoration: none;
     color: white;
     font-size: 13px;
-    font-weight:500;
+    font-weight: 500;
+}
+
+.extramargin {
+    margin-top: 50px;
+}
+
+.newfont {
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.orangeborder {
+    border-color: orange;
+}
+
+.footerstuff .info {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media ONLY SCREEN AND (MAX-width: 600px) {
+    .extramargin {
+        margin-top: 40px;
+    }
 }
