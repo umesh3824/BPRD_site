@@ -19,11 +19,12 @@ footer {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 50px 100px;
+    padding: 30px 40px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background: #222;
+    margin-top: 40px;
 }
 
 footer .container {
@@ -143,9 +144,14 @@ footer .container .sec p {
     color: #999;
 }
 
+.copyrightText p {
+    margin: 0;
+}
+
 @media (max-width: 991px) {
     footer {
-        padding: 40px;
+        padding: 25px;
+        padding-bottom: 0;
     }
     footer .container {
         flex-direction: column;
@@ -165,5 +171,8 @@ footer .container .sec p {
         padding: 8px 40px;
         text-align: center;
         color: #999;
+    }
+    .footer .sec .contact {
+        margin-bottom: 0 !important;
     }
 }
