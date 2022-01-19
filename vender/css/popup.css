@@ -8,8 +8,8 @@
 
 .popup {
     background-color: #dceceb;
-    width: 90%;
-    height: 80%;
+    width: 50%;
+    height: fit-content;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%, -50%);
